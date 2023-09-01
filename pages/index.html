@@ -1,24 +1,30 @@
 <layout title="Static Starter Template" src="main.html">
     
-    <div class="w-screen h-screen bg-gradient-radial bg-[#09090f] flex items-center justify-center">
-        <div class="relative flex min-h-screen flex-col justify-center py-6 sm:py-12" x-cloak>
-            <div class="relative bg-black px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-200/10 sm:mx-auto sm:max-w-md sm:rounded-lg sm:px-10">
-                <div class="absolute h-px w-full opacity-100 -translate-y-px top-0 right-0 bg-gradient-to-r from-transparent via-white/30  to-transparent"></div>
-                <div class="absolute h-px w-full translate-y-px opacity-100 bottom-0 left-0 bg-gradient-to-r from-transparent via-white/20  to-transparent"></div>
-                <div class="mx-auto max-w-md">
-                    <div class="w-full h-auto py-2 flex items-center justify-center">
+    <div class="flex items-center justify-center w-screen h-screen bg-black bg-gradient-radial">
+        <div class="relative flex flex-col justify-center min-h-screen py-6 sm:py-12" x-cloak>
+            <div class="relative px-6 pt-8 bg-black shadow-xl pb-9 ring-1 ring-gray-200/[15%] sm:mx-auto sm:max-w-md sm:rounded-2xl sm:px-10">
+                <div class="absolute top-0 right-0 w-full h-px -translate-y-px opacity-100 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 w-full h-px translate-y-px opacity-100 bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
+                <div class="max-w-md mx-auto">
+                    <div class="flex items-center justify-center w-full h-auto py-2">
                         <include src="logo.html"></include>
                     </div>
                     <div class="relative">
-                        <div class="space-y-6 pt-5 pb-6 text-sm font-light text-center leading-6 text-white/90">
+                        <div class="pt-5 pb-6 space-y-6 text-sm font-light leading-6 text-center text-white/90">
                             <p>Welcome to <strong>Static</strong>. The static site generator that puts simplicity and fun back into crafting HTML website</p>
                         </div>
                         <div class="absolute w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent"></div>
-                        <div class="pt-8 text-xs font-normal leading-7">
-                            <p class="w-full text-center flex items-center justify-center">
-                                <a href="https://github.com/thedevdojo/create-alpine-app" class="text-neutral-200 space-x-1 px-3 py-1 border border-white/20 rounded-md hover:text-white group flex items-center">
-                                    <span>View the Documentation</span>
-                                    <span class="group-hover:translate-x-1 ease-out duration-300 block">&rarr;</span>
+                        <div class="flex items-center pt-8 text-xs font-normal leading-7">
+                            <p class="w-1/2 text-center flex items-center justify-center pr-2.5">
+                                <a href="https://github.com/thedevdojo/create-alpine-app" class="flex items-center justify-center w-full px-3 py-1 space-x-1 border rounded-lg text-neutral-200 hover:bg-white/5 border-white/20 hover:text-white group">
+                                    <span>View the Docs</span>
+                                    <span class="block duration-300 ease-out group-hover:translate-x-1">&rarr;</span>
+                                </a>
+                            </p>
+                            <p class="w-1/2 text-center flex items-center justify-center pl-2.5">
+                                <a href="https://github.com/thedevdojo/create-alpine-app" class="flex items-center justify-center w-full px-3 py-1 space-x-1 border rounded-lg bg-neutral-100 hover:bg-white text-neutral-800 border-white/20 hover:text-neutral-900 group">
+                                    <span>Install Theme</span>
+                                    <span class="block duration-300 ease-out group-hover:translate-x-1">&rarr;</span>
                                 </a>
                             </p>
                         </div>
